@@ -210,6 +210,11 @@ enable = false
 #	url = "https://example.org/mail"
 #	icon = "fa fa-envelope"
 #        desc = "Discuss development issues around the project"
+[proxy.minio]
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 9000
+remotePort = 9000
 
 [module]
   proxy = "direct"
